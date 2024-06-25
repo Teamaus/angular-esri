@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+/*.esri-popup {
+	border: 2px solid #4CAF50;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	background-color: rgb(25, 231, 231);
+  }*/
+  
+  .esri-popup__main-container {
+	background-color: rgb(179, 171, 171);
+	border-color: rgb(125, 12, 238);
+	border-width: 2cm;
+	border-radius: 30px;
+	position: absolute;
+	top: 20px !important;  /* Adjust as needed */
+	left: 70px !important; /* Adjust as needed */
+	right: auto !important; /* Adjust as needed */
+	bottom: auto !important; /* Adjust as needed */
+  }
+  
+  .esri-popup__header {
+	background-color: #4CAF50;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  }
+  
+  .esri-popup__title {
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  .esri-popup__content {
+	padding: 10px;
+  }
+  
+  /* Position the popup */
+  .esri-popup__position-container {
+	top: 20px !important;  /* Adjust as needed */
+	left: 20px !important; /* Adjust as needed */
+	right: auto !important; /* Adjust as needed */
+	bottom: auto !important; /* Adjust as needed */
+  }
+   
